@@ -98,7 +98,9 @@ main {
   max-width: 1140px;
   margin: 0px auto;
 }
-
+main section {
+  margin-top: 130px;
+}
 /* About section related styles */
 .about {
   padding: 130px;
@@ -116,22 +118,47 @@ main {
 /* What i do section styles */
 
 .what-i-do-description {
-  padding: 30px 150px ;
+  padding: 30px 150px;
 }
 /* skills related styles */
-.skills-container{
-    display: flex;
-    padding: 0 130px;
-    justify-content: space-between;
+.skills-container {
+  display: flex;
+  padding: 0 130px;
+  justify-content: space-between;
 }
-.skill{
-    max-width: 260px;
-    padding: 40px;
-    background-color: white;
-    margin: 15px;
-    border-radius: 5px;
+.skill {
+  max-width: 260px;
+  padding: 40px;
+  background-color: white;
+  margin: 15px;
+  border-radius: 5px;
+  box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
 }
-.skill-description{ 
-    color: #757575;
+.skill-description {
+  color: #757575;
 }
 
+/* Resume Section styles */
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-container {
+  display: flex;
+  margin: 0 130px;
+  gap: 80;
+  justify-content: space-between;
+}
+.resule-item, h3, p {
+  color: #757575;
+}
+.resume-container hr{
+    margin: 30px 10px;
+}
+/* download CV button styles */
+.download-btn-CV{
+    margin: 40px 0;
+    text-align: center;
+}
