@@ -151,14 +151,46 @@ main section {
   gap: 80;
   justify-content: space-between;
 }
-.resule-item, h3, p {
+.resule-item-institute,
+.resule-item-description {
   color: #757575;
 }
-.resume-container hr{
-    margin: 30px 10px;
+.resume-container hr {
+  margin: 30px 10px;
 }
 /* download CV button styles */
-.download-btn-CV{
-    margin: 40px 0;
-    text-align: center;
+.download-btn-CV {
+  margin: 40px 0;
+  text-align: center;
+}
+
+/* Footer related styles */
+footer{
+    display: flex;
+    padding: 0 130px;
+    background-color: #FFF8F3;
+    gap: 100px;
+}
+.footer-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.footer-title-description{
+    color: #474747;
+}
+.footer-column {
+    width: 50%;
+    padding-right: 20px;
+}
+.contact-form input[type="text"],input[type="email"], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    width: 65%;
+    border: none;
+
+}
+.contact-form{
+    margin-bottom: 100px;
 }
