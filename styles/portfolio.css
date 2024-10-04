@@ -96,7 +96,7 @@ nav a {
 /* Main section style */
 main {
   max-width: 1140px;
-margin: 0px auto;
+  margin: 0px auto;
 }
 
 /* About section related styles */
@@ -107,8 +107,31 @@ margin: 0px auto;
   margin-top: 130px;
 }
 
-.about-info-container{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+.about-info-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
+
+/* What i do section styles */
+
+.what-i-do-description {
+  padding: 30px 150px ;
+}
+
+.skills-container{
+    display: flex;
+    padding: 0 130px;
+    justify-content: space-between;
+}
+.skill{
+    max-width: 260px;
+    padding: 40px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 5px;
+}
+.skill-description{ 
+    color: #757575;
+}
+
